@@ -38,7 +38,7 @@ export const robots = [
     {
         id: 8,
         name: 'Marc',
-        email: 'Ariel@bèlpapi.com'
+        email: 'mak@bèlpapi.com'
     } 
 
 ];
