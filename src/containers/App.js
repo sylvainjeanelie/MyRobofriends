@@ -4,21 +4,37 @@
  import './App.css';
  import Scroll from '../components/Scroll';
  import ErrorBoundry from "../components/ErrorBoundry";
+ import {robots} from '../components/robots';
 
 
  class App extends Component {
     constructor() {
         super()
         this.state = {
-            robots : [],
+            robots : robots,
             searchfield: ''
         }
     }
 
+//I could also use the below methode to access data from JSON placeholder as well...
+
+//  class App extends Component {
+//     constructor() {
+//         super()
+//         this.state = {
+//             robots : [],
+//             searchfield: ''
+//         }
+//     }
+
+    // componentDidMount() {
+    //     fetch('https://jsonplaceholder.typicode.com/users')
+    //     .then(response => response.json())
+    //     .then(users =>this.setState({robots:users}))
+    // }
+
     componentDidMount() {
-        fetch('https://jsonplaceholder.typicode.com/users')
-        .then(response => response.json())
-        .then(users =>this.setState({robots:users}))
+        this.setState({robots:robots})
     }
 
     onSearchchange = (event) => {

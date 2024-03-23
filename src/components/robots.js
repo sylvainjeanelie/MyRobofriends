@@ -3,42 +3,42 @@ export const robots = [
     {
         id: 1,
         name: 'Elie',
-        email: 'elie@gmail.com'
+        email: 'elie@tizèmisik.com'
     },
     {
         id: 2,
-        name: 'Sam',
-        email: 'sam@gmail.com'
+        name: 'Samy',
+        email: 'samy@lechef.com'
     },
     {
         id: 3,
         name: 'Serge',
-        email: 'serge@gmail.com'
+        email: 'serge@zopope.com'
     },
     {
         id: 4,
         name: 'Freud',
-        email: 'freud@gmail.com'
+        email: 'freud@ing.com'
     },
     {
         id: 5,
         name: 'Slot',
-        email: 'slot@gmail.com'
+        email: 'slot@leboss.com'
     },
     {
         id: 6,
         name: 'Calerb',
-        email: 'calerb@gmail.com'
+        email: 'calerb@magouyè.com'
     },
     {
         id: 7,
-        name: 'Samy',
-        email: 'samy@gmail.com'
+        name: 'Lovenson',
+        email: 'lovenson@lajenès.com'
     },    
     {
         id: 8,
-        name: 'Moy',
-        email: 'moy@gmail.com'
+        name: 'Ariel',
+        email: 'Ariel@leroi.com'
     } 
 
 ];
